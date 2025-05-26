@@ -2,7 +2,8 @@
 {
   "globalSettings": {
     "siteTitle": "Guardiões do Marumbi",
-    "contactEmail": "contato@aventufilm.com.br"
+    "contactEmail": "contato@aventufilm.com.br",
+    "whatsappProdutora": "https://api.whatsapp.com/send/?phone=554130125541&text&type=phone_number&app_absent=0"
   },
   "sections": [
     {
@@ -69,9 +70,6 @@
           "https://aventufilm.com.br/wp-content/uploads/2025/05/DSC07355-scaled.jpg",
           "https://aventufilm.com.br/wp-content/uploads/2025/05/DSC07461-scaled.jpg",
           "https://aventufilm.com.br/wp-content/uploads/2025/05/DSC06430-scaled.jpg"
-
-
-          
         ]
       }
     },
@@ -120,6 +118,29 @@
       }
     },
     {
+      "id": "supporters",
+      "title": "Quem Apoia",
+      "visible": true,
+      "menuTitle": "Quem Apoia",
+      "content": {
+        "explanatoryText": "Conheça quem acredita e apoia o projeto Guardiões do Marumbi:",
+        "supporters": [
+          {
+            "name": "Exemplo Apoiador 1",
+            "description": "Breve descrição sobre este apoiador e sua contribuição para o projeto.",
+            "logo": "https://via.placeholder.com/200x100"
+          },
+          {
+            "name": "Exemplo Apoiador 2", 
+            "description": "Breve descrição sobre este apoiador e sua contribuição para o projeto.",
+            "logo": "https://via.placeholder.com/200x100"
+          }
+        ],
+        "whatsappMessage": "Olá, gostaria de saber como faço pra contribuir com o projeto Guardiões do Marumbi.",
+        "whatsappLink": "https://api.whatsapp.com/send/?phone=554130125541&text=Olá, gostaria de saber como faço pra contribuir com o projeto Guardiões do Marumbi.&type=phone_number&app_absent=0"
+      }
+    },
+    {
       "id": "support",
       "title": "Como Apoiar",
       "visible": true,
@@ -140,7 +161,9 @@
         "name": "Bruno Carvalho",
         "role": "Diretor e Produtor | AventuFilm",
         "email": "contato@aventufilm.com.br",
-        "website": "www.aventufilm.com.br"
+        "website": "www.aventufilm.com.br",
+        "whatsapp": "+5541985353106",
+        "whatsappLink": "https://api.whatsapp.com/send/?phone=5541985353106&text&type=phone_number&app_absent=0"
       }
     }
   ]
