@@ -126,14 +126,24 @@
         "explanatoryText": "Conheça quem acredita e apoia o projeto Guardiões do Marumbi:",
         "supporters": [
           {
-            "name": "Exemplo Apoiador 1",
-            "description": "Breve descrição sobre este apoiador e sua contribuição para o projeto.",
-            "logo": "https://via.placeholder.com/200x100"
+            "name": "Alpen Outdoor",
+            "description": "A ALPEN, que já apoia o trabalho essencial do COSMO na Serra do Mar, estendeu essa parceria à gente, dando o impulso inicial para o documentário 'Guardiões do Marumbi' se tornar realidade!",
+            "logo": "https://media.licdn.com/dms/image/D4E0BAQG0_CGo33cRfg/company-logo_200_200/0/1715626833951/alpenoficial_logo?e=2147483647&v=beta&t=I8bzw4oMLllXK6Zo0HGJDiV_-LYDI2Fa1dOz3RgTvk8"
           },
           {
-            "name": "Exemplo Apoiador 2", 
-            "description": "Breve descrição sobre este apoiador e sua contribuição para o projeto.",
-            "logo": "https://via.placeholder.com/200x100"
+            "name": "AventuFim (nós mesmos!)",
+            "description": "Nós da AventuFilm somos alma e coração (e muito investimento!) neste projeto, porque contar a história do COSMO nos move de verdade!",
+            "logo": "https://aventufilm.com.br/wp-content/uploads/2025/02/LogoBranca@4x.png"
+          },
+          {
+            "name": "COSMO",
+            "description": "O COSMO é mais que o tema do nosso doc, é parceiraço essencial, abrindo portas, histórias e até a sua casa na montanha pra gente!",
+            "logo": "https://aventufilm.com.br/wp-content/uploads/2025/02/cosmo.png"
+          },
+            {
+            "name": "Bernardo do Espinhaço",
+            "description": "O músico e montanhista Bernardo do Espinhaço está compondo a alma sonora do nosso doc, contribuindo com a trilha sonora original de 'Guardiões do Marumbi'!",
+            "logo": "https://culturalizabh.com.br/wp-content/uploads/2018/08/IMG_2599_photo72_RobsondeOliveira-1210x642.jpg"
           }
         ],
         "whatsappMessage": "Olá, gostaria de saber como faço pra contribuir com o projeto Guardiões do Marumbi.",

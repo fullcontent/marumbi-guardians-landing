@@ -543,7 +543,7 @@ const Index = () => {
               >
                 <a href={supportersSection.content.whatsappLink} target="_blank" rel="noopener noreferrer">
                   <MessageCircle className="mr-2 h-4 w-4" />
-                  Quero Apoiar pelo WhatsApp
+                  Quero Apoiar!
                 </a>
               </Button>
             </div>
