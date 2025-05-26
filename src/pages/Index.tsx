@@ -1,10 +1,15 @@
-
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
-import { Menu, X, ExternalLink, Play } from 'lucide-react';
+import { Menu, X, ExternalLink, Play, ChevronDown } from 'lucide-react';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
 
 interface SectionData {
   id: string;
@@ -75,6 +80,14 @@ const Index = () => {
   const supportSection = visibleSections.find(s => s.id === 'support');
   const contactSection = visibleSections.find(s => s.id === 'contact');
 
+  // Define project submenu items
+  const projectSubmenus = [
+    { id: 'justification', title: 'Justificativa', section: justificationSection },
+    { id: 'objectives', title: 'Objetivos', section: objectivesSection },
+    { id: 'teasers', title: 'Teasers', section: teasersSection },
+    { id: 'team', title: 'Equipe', section: teamSection }
+  ].filter(item => item.section);
+
   return (
     <div className="min-h-screen bg-black text-white">
       {/* Navigation */}
@@ -94,15 +107,60 @@ const Index = () => {
             
             {/* Desktop Navigation */}
             <div className="hidden md:flex space-x-8">
-              {visibleSections.map(section => (
+              {heroSection && (
                 <button
-                  key={section.id}
-                  onClick={() => scrollToSection(section.id)}
+                  onClick={() => scrollToSection('hero')}
                   className="text-gray-300 hover:text-emerald-400 transition-colors duration-200 font-medium"
                 >
-                  {section.menuTitle}
+                  Início
                 </button>
-              ))}
+              )}
+              
+              {projectSection && (
+                <DropdownMenu>
+                  <DropdownMenuTrigger asChild>
+                    <button className="flex items-center text-gray-300 hover:text-emerald-400 transition-colors duration-200 font-medium">
+                      O Projeto
+                      <ChevronDown className="ml-1 h-4 w-4" />
+                    </button>
+                  </DropdownMenuTrigger>
+                  <DropdownMenuContent className="bg-black border-gray-800">
+                    <DropdownMenuItem
+                      onClick={() => scrollToSection('project')}
+                      className="text-gray-300 hover:text-emerald-400 focus:text-emerald-400"
+                    >
+                      Visão Geral
+                    </DropdownMenuItem>
+                    {projectSubmenus.map(item => (
+                      <DropdownMenuItem
+                        key={item.id}
+                        onClick={() => scrollToSection(item.id)}
+                        className="text-gray-300 hover:text-emerald-400 focus:text-emerald-400"
+                      >
+                        {item.title}
+                      </DropdownMenuItem>
+                    ))}
+                  </DropdownMenuContent>
+                </DropdownMenu>
+              )}
+              
+              {supportSection && (
+                <button
+                  onClick={() => scrollToSection('support')}
+                  className="text-gray-300 hover:text-emerald-400 transition-colors duration-200 font-medium"
+                >
+                  {supportSection.menuTitle}
+                </button>
+              )}
+              
+              {contactSection && (
+                <button
+                  onClick={() => scrollToSection('contact')}
+                  className="text-gray-300 hover:text-emerald-400 transition-colors duration-200 font-medium"
+                >
+                  {contactSection.menuTitle}
+                </button>
+              )}
             </div>
 
             {/* Mobile Navigation */}
@@ -114,15 +172,54 @@ const Index = () => {
               </SheetTrigger>
               <SheetContent side="right" className="bg-black border-gray-800">
                 <div className="flex flex-col space-y-4 mt-8">
-                  {visibleSections.map(section => (
+                  {heroSection && (
                     <button
-                      key={section.id}
-                      onClick={() => scrollToSection(section.id)}
+                      onClick={() => scrollToSection('hero')}
                       className="text-left text-gray-300 hover:text-emerald-400 transition-colors duration-200 text-lg"
                     >
-                      {section.menuTitle}
+                      Início
                     </button>
-                  ))}
+                  )}
+                  
+                  {projectSection && (
+                    <>
+                      <button
+                        onClick={() => scrollToSection('project')}
+                        className="text-left text-gray-300 hover:text-emerald-400 transition-colors duration-200 text-lg font-medium"
+                      >
+                        O Projeto
+                      </button>
+                      <div className="ml-4 space-y-2">
+                        {projectSubmenus.map(item => (
+                          <button
+                            key={item.id}
+                            onClick={() => scrollToSection(item.id)}
+                            className="block text-left text-gray-400 hover:text-emerald-400 transition-colors duration-200"
+                          >
+                            {item.title}
+                          </button>
+                        ))}
+                      </div>
+                    </>
+                  )}
+                  
+                  {supportSection && (
+                    <button
+                      onClick={() => scrollToSection('support')}
+                      className="text-left text-gray-300 hover:text-emerald-400 transition-colors duration-200 text-lg"
+                    >
+                      {supportSection.menuTitle}
+                    </button>
+                  )}
+                  
+                  {contactSection && (
+                    <button
+                      onClick={() => scrollToSection('contact')}
+                      className="text-left text-gray-300 hover:text-emerald-400 transition-colors duration-200 text-lg"
+                    >
+                      {contactSection.menuTitle}
+                    </button>
+                  )}
                 </div>
               </SheetContent>
             </Sheet>
