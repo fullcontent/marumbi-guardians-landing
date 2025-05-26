@@ -111,11 +111,6 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-3">
-              <img 
-                src="/lovable-uploads/32567fc9-b483-4933-93c5-fd9d2726f511.png" 
-                alt="COSMO" 
-                className="h-8 w-auto"
-              />
               <div className="text-xl font-bold text-green-400">
                 {data?.globalSettings.siteTitle}
               </div>
