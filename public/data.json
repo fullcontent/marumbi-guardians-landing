@@ -11,7 +11,7 @@
       "visible": true,
       "menuTitle": "Início",
       "content": {
-        "backgroundImage": "/images/hero-background.jpg",
+        "backgroundImage": "https://aventufilm.com.br/wp-content/uploads/2025/05/Teaser-2.00_01_02_21.Still001.jpg",
         "mainTitle": "Guardiões do Marumbi",
         "logline": "Por quase 30 anos, os voluntários do COSMO enfrentam os perigos da imponente Serra do Mar, no Brasil, não apenas para resgatar aventureiros perdidos, mas para redefinir o socorro em montanha através de uma filosofia onde a maior vitória é evitar a tragédia.",
         "ctaButtonText": "Conheça o Projeto"
@@ -38,7 +38,7 @@
           "Comunidade",
           "Transferência de Conhecimento"
         ],
-        "image1": "/images/project-image.jpg"
+        "image1": "https://aventufilm.com.br/wp-content/uploads/2025/05/DSC06470-scaled.jpg"
       }
     },
     {
@@ -48,7 +48,7 @@
       "menuTitle": "Justificativa",
       "content": {
         "mainText": "Em um momento de crescente busca por atividades ao ar livre, a discussão sobre segurança e o trabalho voluntário especializado é premente. Este filme é um chamado à conscientização, um tributo à dedicação altruísta e uma forma de honrar o passado e inspirar um futuro mais seguro. Com quase 30 anos de história, é vital registrar as memórias dos fundadores antes que se percam no tempo.",
-        "image": "/images/justification-image.jpg"
+        "image": "https://aventufilm.com.br/wp-content/uploads/2025/05/DSC06556-scaled.jpg"
       }
     },
     {
@@ -60,13 +60,12 @@
         "teaser1Url": "https://www.youtube.com/embed/bpD3pzsth-s",
         "teaser2Url": "https://www.youtube.com/embed/f-EG4-zboeY",
         "galleryImages": [
-          "https://imgdrop.io/image/Entrevista-Babi.02-14-09-07.Still004.mpBbB",
-          "https://imgdrop.io/image/Entrevista-Babi.02-14-09-07.Still004.mpBbB",
-          "https://imgdrop.io/image/Entrevista-Babi.02-14-09-07.Still004.mpBbB",
-          "https://imgdrop.io/image/Entrevista-Babi.02-14-09-07.Still004.mpBbB",
-          "https://imgdrop.io/image/Entrevista-Babi.02-14-09-07.Still004.mpBbB",
-          "https://imgdrop.io/image/Entrevista-Babi.02-14-09-07.Still004.mpBbB",
-          "https://imgdrop.io/image/Entrevista-Babi.02-14-09-07.Still004.mpBbB"
+          "https://aventufilm.com.br/wp-content/uploads/2025/02/DSC06280.jpg",
+          "https://aventufilm.com.br/wp-content/uploads/2025/02/DSC06305.jpg",
+          "https://aventufilm.com.br/wp-content/uploads/2025/05/Entrevista-Lineu.04_09_55_18.Still006-scaled.jpg",
+          "https://aventufilm.com.br/wp-content/uploads/2025/05/Entrevista-Dra.01_24_27_16.Still001-scaled.jpg"
+
+          
         ]
       }
     },
@@ -97,19 +96,19 @@
             "name": "Bruno Carvalho",
             "role": "Diretor",
             "description": "Produtor audiovisual com 15 anos de experiência, montanhista e ex-aspirante do COSMO. Traz uma perspectiva única ao projeto através de sua vivência pessoal com o grupo.",
-            "image": "/images/bruno-carvalho.jpg"
+            "image": "https://aventufilm.com.br/wp-content/uploads/2025/05/DSC07408-scaled.jpg"
           },
           {
             "name": "AventuFilm",
             "role": "Produtora",
             "description": "Produtora especializada em narrativas que exploram a relação entre homem e natureza, com foco em histórias autênticas e impactantes.",
-            "image": "/images/aventufilm-logo.jpg"
+            "image": "https://aventufilm.com.br/wp-content/uploads/2025/02/LogoBranca@4x.png"
           },
           {
-            "name": "Inriê Yuzo / Maturano",
-            "role": "Direção de Fotografia e Som",
+            "name": "Inriê Maturano",
+            "role": "Direção de Fotografia",
             "description": "Responsável pela identidade visual e sonora do documentário, capturando a essência e a beleza da Serra do Mar e do trabalho do COSMO.",
-            "image": "/images/inrie-yuzo.jpg"
+            "image": "https://aventufilm.com.br/wp-content/uploads/2025/05/DSC06604-scaled.jpg"
           }
         ]
       }
@@ -122,7 +121,7 @@
       "content": {
         "explanatoryText": "Para finalizar o documentário 'Guardiões do Marumbi', precisamos da sua ajuda! Buscamos R$ 16.440,25 para cobrir custos essenciais de pós-produção e divulgação. Este valor complementa o investimento da AventuFilm de mais de R$ 50.000 em mão de obra e equipamentos. Torne-se um apoiador e ajude a contar essa história inspiradora!",
         "crowdfundingButtonText": "Apoie Agora no Benfeitoria",
-        "crowdfundingLink": "https://benfeitoria.com/guardioes-do-marumbi",
+        "crowdfundingLink": "https://benfeitoria.com/guardioesdomarumbi",
         "qrCodeImage": "/images/qr-code-benfeitoria.png"
       }
     },
