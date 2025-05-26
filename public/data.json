@@ -60,14 +60,13 @@
         "teaser1Url": "https://www.youtube.com/embed/bpD3pzsth-s",
         "teaser2Url": "https://www.youtube.com/embed/f-EG4-zboeY",
         "galleryImages": [
-          "/images/gallery1.jpg",
-          "/images/gallery2.jpg",
-          "/images/gallery3.jpg",
-          "/images/gallery4.jpg",
-          "/images/gallery5.jpg",
-          "/images/gallery6.jpg",
-          "/images/gallery7.jpg",
-          "/images/gallery8.jpg"
+          "https://imgdrop.io/image/Entrevista-Babi.02-14-09-07.Still004.mpBbB",
+          "https://imgdrop.io/image/Entrevista-Babi.02-14-09-07.Still004.mpBbB",
+          "https://imgdrop.io/image/Entrevista-Babi.02-14-09-07.Still004.mpBbB",
+          "https://imgdrop.io/image/Entrevista-Babi.02-14-09-07.Still004.mpBbB",
+          "https://imgdrop.io/image/Entrevista-Babi.02-14-09-07.Still004.mpBbB",
+          "https://imgdrop.io/image/Entrevista-Babi.02-14-09-07.Still004.mpBbB",
+          "https://imgdrop.io/image/Entrevista-Babi.02-14-09-07.Still004.mpBbB",
         ]
       }
     },

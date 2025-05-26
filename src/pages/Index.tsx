@@ -228,7 +228,7 @@ const Index = () => {
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{ 
-              backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80)`
+              backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://imgdrop.io/image/mja73)`
             }}
           />
           <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
@@ -254,7 +254,7 @@ const Index = () => {
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
             style={{ 
-              backgroundImage: `url(https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2052&q=80)`
+              backgroundImage: `url(https://imgdrop.io/image/DSC06267.mjgwt)`
             }}
           />
           <div className="max-w-6xl mx-auto px-4 relative z-10">
@@ -320,7 +320,7 @@ const Index = () => {
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
             style={{ 
-              backgroundImage: `url(https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2062&q=80)`
+              backgroundImage: `url(https://imgdrop.io/image/Teaser-%232.00-00-11-06.Still003.mj4JU)`
             }}
           />
           <div className="max-w-6xl mx-auto px-4 relative z-10">
@@ -352,7 +352,7 @@ const Index = () => {
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
             style={{ 
-              backgroundImage: `url(https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80)`
+              backgroundImage: `url(https://imgdrop.io/image/Teaser-%232.00-00-38-10.Still002.mjCHB)`
             }}
           />
           <div className="max-w-6xl mx-auto px-4 relative z-10">
@@ -397,7 +397,7 @@ const Index = () => {
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
             style={{ 
-              backgroundImage: `url(https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2048&q=80)`
+              backgroundImage: `url(https://imgdrop.io/image/DSC07433.mjfD5)`
             }}
           />
           <div className="max-w-6xl mx-auto px-4 relative z-10">
@@ -424,7 +424,7 @@ const Index = () => {
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
             style={{ 
-              backgroundImage: `url(https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80)`
+              backgroundImage: `url(https://imgdrop.io/image/DSC06391.mjqNa)`
             }}
           />
           <div className="max-w-6xl mx-auto px-4 relative z-10">
@@ -462,7 +462,7 @@ const Index = () => {
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
             style={{ 
-              backgroundImage: `url(https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2088&q=80)`
+              backgroundImage: `url(https://imgdrop.io/image/DSC06293.mjuV7)`
             }}
           />
           <div className="max-w-6xl mx-auto px-4 relative z-10">
@@ -506,7 +506,7 @@ const Index = () => {
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
             style={{ 
-              backgroundImage: `url(https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80)`
+              backgroundImage: `url(https://imgdrop.io/image/DSC06305.mjiHQ)`
             }}
           />
           <div className="max-w-4xl mx-auto px-4 text-center relative z-10">
