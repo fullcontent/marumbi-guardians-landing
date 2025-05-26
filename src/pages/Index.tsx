@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
@@ -70,7 +69,7 @@ const Index = () => {
   const projectSection = visibleSections.find(s => s.id === 'project');
   const justificationSection = visibleSections.find(s => s.id === 'justification');
   const teasersSection = visibleSections.find(s => s.id === 'teasers');
-  const objectivesSection = visibleSections.find(s => s.id => 'objectives');
+  const objectivesSection = visibleSections.find(s => s.id === 'objectives');
   const teamSection = visibleSections.find(s => s.id === 'team');
   const supportSection = visibleSections.find(s => s.id === 'support');
   const contactSection = visibleSections.find(s => s.id === 'contact');
