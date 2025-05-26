@@ -1,73 +1,135 @@
-# Welcome to your Lovable project
 
-## Project info
+# Guardiões do Marumbi - Landing Page
 
-**URL**: https://lovable.dev/projects/2d14dbab-22e5-4cc5-a600-a8e09450e105
+Landing page for the documentary "Guardiões do Marumbi" with an integrated admin panel for content management.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
+- **Dark Theme**: Professional black background with yellow/gold and green accents
+- **Admin Panel**: Simple content management system at `/admin`
+- **JSON-Based**: All content stored in a single `data.json` file
+- **Section Management**: Toggle visibility of sections and edit all content
+- **Modern UI**: Built with React, TypeScript, and Tailwind CSS
 
-**Use Lovable**
+## Project Structure
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2d14dbab-22e5-4cc5-a600-a8e09450e105) and start prompting.
+```
+src/
+├── pages/
+│   ├── Index.tsx          # Main landing page
+│   ├── Admin.tsx          # Admin panel
+│   └── NotFound.tsx       # 404 page
+├── components/ui/         # UI components (shadcn/ui)
+└── ...
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+public/
+├── data.json             # Content data file
+├── images/               # Image directory
+└── ...
 ```
 
-**Edit a file directly in GitHub**
+## Deployment Instructions
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 1. Install Dependencies
+```bash
+npm install
+```
 
-**Use GitHub Codespaces**
+### 2. Build the Project
+```bash
+npm run build
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### 3. Upload Files
+Upload the contents of the `dist` folder to your web server.
 
-## What technologies are used for this project?
+### 4. Upload Images
+Create an `images` folder in your web root and upload the following images:
+- `hero-background.jpg` - Hero section background
+- `project-image.jpg` - Project section image
+- `justification-image.jpg` - Justification section image
+- `gallery1.jpg` to `gallery8.jpg` - Gallery images
+- `bruno-carvalho.jpg` - Team member photo
+- `aventufilm-logo.jpg` - Company logo
+- `inrie-yuzo.jpg` - Team member photo
+- `qr-code-benfeitoria.png` - QR code for crowdfunding
 
-This project is built with:
+### 5. Update data.json
+The `data.json` file contains all the content. You can:
+- Edit it directly on the server
+- Use the admin panel at `/admin` to generate an updated version
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Using the Admin Panel
 
-## How can I deploy this project?
+### Access
+1. Navigate to `/admin` on your deployed site
+2. Enter the password: `guardioes2024`
+3. Edit content and settings
 
-Simply open [Lovable](https://lovable.dev/projects/2d14dbab-22e5-4cc5-a600-a8e09450e105) and click on Share -> Publish.
+### Features
+- **Global Settings**: Site title and contact email
+- **Section Management**: 
+  - Toggle section visibility
+  - Edit section titles and menu names
+  - Update all text content
+  - Modify image paths and video URLs
 
-## Can I connect a custom domain to my Lovable project?
+### Saving Changes
+The admin panel generates a downloadable `data.json` file. After making changes:
+1. Click "Salvar Alterações"
+2. Download the updated `data.json`
+3. Upload it to your server to replace the existing file
 
-Yes, you can!
+## Content Sections
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+1. **Hero**: Main banner with title, tagline, and call-to-action
+2. **O Projeto**: Project description, format, and themes
+3. **Justificativa**: Why this story matters now
+4. **Teasers**: Video teasers and image gallery
+5. **Objetivos**: Impact potential and objectives
+6. **Equipe**: Team member information
+7. **Como Apoiar**: Crowdfunding support section
+8. **Contato**: Contact information
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## Security Notes
+
+- Change the admin password in `src/pages/Admin.tsx` before deployment
+- Consider implementing server-side authentication for better security
+- The current implementation downloads the JSON file rather than saving directly to the server
+
+## Technology Stack
+
+- **Frontend**: React 18, TypeScript, Tailwind CSS
+- **UI Components**: shadcn/ui, Radix UI
+- **Icons**: Lucide React
+- **Fonts**: Montserrat (Google Fonts)
+- **Build Tool**: Vite
+
+## Browser Support
+
+Modern browsers including:
+- Chrome 90+
+- Firefox 88+
+- Safari 14+
+- Edge 90+
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+## Support
+
+For technical support or questions about the landing page, contact the development team.

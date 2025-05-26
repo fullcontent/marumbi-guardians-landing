@@ -1,0 +1,143 @@
+
+{
+  "globalSettings": {
+    "siteTitle": "Guardiões do Marumbi",
+    "contactEmail": "contato@aventufilm.com.br"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "title": "Hero",
+      "visible": true,
+      "menuTitle": "Início",
+      "content": {
+        "backgroundImage": "/images/hero-background.jpg",
+        "mainTitle": "Guardiões do Marumbi",
+        "logline": "Por quase 30 anos, os voluntários do COSMO enfrentam os perigos da imponente Serra do Mar, no Brasil, não apenas para resgatar aventureiros perdidos, mas para redefinir o socorro em montanha através de uma filosofia onde a maior vitória é evitar a tragédia.",
+        "ctaButtonText": "Conheça o Projeto"
+      }
+    },
+    {
+      "id": "project",
+      "title": "O Projeto",
+      "visible": true,
+      "menuTitle": "O Projeto",
+      "content": {
+        "introText": "O documentário 'Guardiões do Marumbi' conta a história inspiradora do COSMO (Corpo de Socorro em Montanha), uma equipe de voluntários que há quase três décadas dedica suas vidas ao resgate e à prevenção de acidentes na Serra do Mar.",
+        "whatIsTitle": "O Que É",
+        "whatIsText": "Um documentário sobre o trabalho dedicado e altruísta dos voluntários do COSMO, explorando suas motivações, desafios e o impacto de seu trabalho na comunidade montanhista.",
+        "formatTitle": "Formato e Duração",
+        "formatText": "Longa-metragem documental com duração estimada entre 40 a 90 minutos, combinando entrevistas, imagens de arquivo e captações contemporâneas.",
+        "themesTitle": "Temas Centrais",
+        "themes": [
+          "Voluntariado",
+          "História",
+          "Segurança e Prevenção",
+          "Relação Homem-Natureza",
+          "Superação",
+          "Comunidade",
+          "Transferência de Conhecimento"
+        ],
+        "image1": "/images/project-image.jpg"
+      }
+    },
+    {
+      "id": "justification",
+      "title": "Por Que Esta História Agora?",
+      "visible": true,
+      "menuTitle": "Justificativa",
+      "content": {
+        "mainText": "Em um momento de crescente busca por atividades ao ar livre, a discussão sobre segurança e o trabalho voluntário especializado é premente. Este filme é um chamado à conscientização, um tributo à dedicação altruísta e uma forma de honrar o passado e inspirar um futuro mais seguro. Com quase 30 anos de história, é vital registrar as memórias dos fundadores antes que se percam no tempo.",
+        "image": "/images/justification-image.jpg"
+      }
+    },
+    {
+      "id": "teasers",
+      "title": "Teasers e Galeria",
+      "visible": true,
+      "menuTitle": "Teasers",
+      "content": {
+        "teaser1Url": "https://www.youtube.com/embed/bpD3pzsth-s",
+        "teaser2Url": "https://www.youtube.com/embed/f-EG4-zboeY",
+        "galleryImages": [
+          "/images/gallery1.jpg",
+          "/images/gallery2.jpg",
+          "/images/gallery3.jpg",
+          "/images/gallery4.jpg",
+          "/images/gallery5.jpg",
+          "/images/gallery6.jpg",
+          "/images/gallery7.jpg",
+          "/images/gallery8.jpg"
+        ]
+      }
+    },
+    {
+      "id": "objectives",
+      "title": "Potencial de Impacto",
+      "visible": true,
+      "menuTitle": "Objetivos",
+      "content": {
+        "objectives": [
+          "Conscientização sobre Segurança em Montanha",
+          "Valorização do Trabalho Voluntário",
+          "Preservação da Memória Institucional",
+          "Educação e Prevenção",
+          "Inspiração para Novos Voluntários",
+          "Promoção do Turismo Consciente"
+        ]
+      }
+    },
+    {
+      "id": "team",
+      "title": "A Equipe",
+      "visible": true,
+      "menuTitle": "Equipe",
+      "content": {
+        "members": [
+          {
+            "name": "Bruno Carvalho",
+            "role": "Diretor",
+            "description": "Produtor audiovisual com 15 anos de experiência, montanhista e ex-aspirante do COSMO. Traz uma perspectiva única ao projeto através de sua vivência pessoal com o grupo.",
+            "image": "/images/bruno-carvalho.jpg"
+          },
+          {
+            "name": "AventuFilm",
+            "role": "Produtora",
+            "description": "Produtora especializada em narrativas que exploram a relação entre homem e natureza, com foco em histórias autênticas e impactantes.",
+            "image": "/images/aventufilm-logo.jpg"
+          },
+          {
+            "name": "Inriê Yuzo / Maturano",
+            "role": "Direção de Fotografia e Som",
+            "description": "Responsável pela identidade visual e sonora do documentário, capturando a essência e a beleza da Serra do Mar e do trabalho do COSMO.",
+            "image": "/images/inrie-yuzo.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "support",
+      "title": "Como Apoiar",
+      "visible": true,
+      "menuTitle": "Apoie",
+      "content": {
+        "explanatoryText": "Para finalizar o documentário 'Guardiões do Marumbi', precisamos da sua ajuda! Buscamos R$ 16.440,25 para cobrir custos essenciais de pós-produção e divulgação. Este valor complementa o investimento da AventuFilm de mais de R$ 50.000 em mão de obra e equipamentos. Torne-se um apoiador e ajude a contar essa história inspiradora!",
+        "crowdfundingButtonText": "Apoie Agora no Benfeitoria",
+        "crowdfundingLink": "https://benfeitoria.com/guardioes-do-marumbi",
+        "qrCodeImage": "/images/qr-code-benfeitoria.png"
+      }
+    },
+    {
+      "id": "contact",
+      "title": "Contato",
+      "visible": true,
+      "menuTitle": "Contato",
+      "content": {
+        "name": "Bruno Carvalho",
+        "role": "Diretor e Produtor | AventuFilm",
+        "email": "contato@aventufilm.com.br",
+        "website": "www.aventufilm.com.br"
+      }
+    }
+  ]
+}

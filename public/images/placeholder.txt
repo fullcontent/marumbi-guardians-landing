@@ -1,0 +1,19 @@
+
+This folder should contain all the images for the landing page:
+
+Required images:
+- hero-background.jpg (Hero section background)
+- project-image.jpg (Project section image)
+- justification-image.jpg (Justification section image)
+- gallery1.jpg to gallery8.jpg (Gallery images)
+- bruno-carvalho.jpg (Team member photo)
+- aventufilm-logo.jpg (Company logo)
+- inrie-yuzo.jpg (Team member photo)
+- qr-code-benfeitoria.png (QR code for crowdfunding)
+
+Upload these images to this /images/ directory and update the paths in the admin panel.
+Use image URLs from Unsplash or other sources for testing:
+- Hero background: https://images.unsplash.com/photo-1469474968028-56623f02e42e
+- Project image: https://images.unsplash.com/photo-1472396961693-142e6e269027
+- Justification: https://images.unsplash.com/photo-1433086966358-54859d0ed716
+- Gallery images: Use various mountain/nature photos from Unsplash
