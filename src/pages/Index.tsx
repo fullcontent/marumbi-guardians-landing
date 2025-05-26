@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
@@ -80,8 +81,15 @@ const Index = () => {
       <nav className="fixed top-0 w-full bg-black/90 backdrop-blur-sm z-50 border-b border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="text-xl font-bold text-yellow-400">
-              {data.globalSettings.siteTitle}
+            <div className="flex items-center space-x-3">
+              <img 
+                src="/lovable-uploads/32567fc9-b483-4933-93c5-fd9d2726f511.png" 
+                alt="COSMO Logo" 
+                className="h-10 w-10"
+              />
+              <div className="text-xl font-bold text-emerald-400">
+                {data.globalSettings.siteTitle}
+              </div>
             </div>
             
             {/* Desktop Navigation */}
@@ -90,7 +98,7 @@ const Index = () => {
                 <button
                   key={section.id}
                   onClick={() => scrollToSection(section.id)}
-                  className="text-gray-300 hover:text-yellow-400 transition-colors duration-200 font-medium"
+                  className="text-gray-300 hover:text-emerald-400 transition-colors duration-200 font-medium"
                 >
                   {section.menuTitle}
                 </button>
@@ -110,7 +118,7 @@ const Index = () => {
                     <button
                       key={section.id}
                       onClick={() => scrollToSection(section.id)}
-                      className="text-left text-gray-300 hover:text-yellow-400 transition-colors duration-200 text-lg"
+                      className="text-left text-gray-300 hover:text-emerald-400 transition-colors duration-200 text-lg"
                     >
                       {section.menuTitle}
                     </button>
@@ -128,12 +136,11 @@ const Index = () => {
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{ 
-              backgroundImage: `url(${heroSection.content.backgroundImage})`,
-              filter: 'brightness(0.4)'
+              backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80)`
             }}
           />
           <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 text-yellow-400">
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 text-emerald-400">
               {heroSection.content.mainTitle}
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-gray-200 leading-relaxed">
@@ -141,7 +148,7 @@ const Index = () => {
             </p>
             <Button
               onClick={() => scrollToSection('project')}
-              className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold text-lg px-8 py-4 rounded-lg transition-colors duration-200"
+              className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors duration-200"
             >
               {heroSection.content.ctaButtonText}
             </Button>
@@ -151,9 +158,15 @@ const Index = () => {
 
       {/* Project Section */}
       {projectSection && (
-        <section id="project" className="py-20 bg-gray-900">
-          <div className="max-w-6xl mx-auto px-4">
-            <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-yellow-400">
+        <section id="project" className="py-20 bg-gray-900 relative">
+          <div 
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
+            style={{ 
+              backgroundImage: `url(https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2052&q=80)`
+            }}
+          />
+          <div className="max-w-6xl mx-auto px-4 relative z-10">
+            <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-emerald-400">
               {projectSection.title}
             </h2>
             
@@ -165,7 +178,7 @@ const Index = () => {
                 
                 <div className="space-y-6">
                   <div>
-                    <h3 className="text-2xl font-bold text-green-400 mb-3">
+                    <h3 className="text-2xl font-bold text-emerald-500 mb-3">
                       {projectSection.content.whatIsTitle}
                     </h3>
                     <p className="text-gray-300 leading-relaxed">
@@ -174,7 +187,7 @@ const Index = () => {
                   </div>
                   
                   <div>
-                    <h3 className="text-2xl font-bold text-green-400 mb-3">
+                    <h3 className="text-2xl font-bold text-emerald-500 mb-3">
                       {projectSection.content.formatTitle}
                     </h3>
                     <p className="text-gray-300 leading-relaxed">
@@ -194,12 +207,12 @@ const Index = () => {
             </div>
             
             <div>
-              <h3 className="text-3xl font-bold text-green-400 mb-6 text-center">
+              <h3 className="text-3xl font-bold text-emerald-500 mb-6 text-center">
                 {projectSection.content.themesTitle}
               </h3>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {projectSection.content.themes.map((theme: string, index: number) => (
-                  <Card key={index} className="bg-black/50 border-gray-700 p-4">
+                  <Card key={index} className="bg-black/50 border-emerald-800 p-4">
                     <p className="text-center text-gray-300 font-medium">{theme}</p>
                   </Card>
                 ))}
@@ -211,9 +224,15 @@ const Index = () => {
 
       {/* Justification Section */}
       {justificationSection && (
-        <section id="justification" className="py-20 bg-black">
-          <div className="max-w-6xl mx-auto px-4">
-            <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-yellow-400">
+        <section id="justification" className="py-20 bg-black relative">
+          <div 
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
+            style={{ 
+              backgroundImage: `url(https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2062&q=80)`
+            }}
+          />
+          <div className="max-w-6xl mx-auto px-4 relative z-10">
+            <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-emerald-400">
               {justificationSection.title}
             </h2>
             
@@ -237,9 +256,15 @@ const Index = () => {
 
       {/* Teasers Section */}
       {teasersSection && (
-        <section id="teasers" className="py-20 bg-gray-900">
-          <div className="max-w-6xl mx-auto px-4">
-            <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-yellow-400">
+        <section id="teasers" className="py-20 bg-gray-900 relative">
+          <div 
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
+            style={{ 
+              backgroundImage: `url(https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80)`
+            }}
+          />
+          <div className="max-w-6xl mx-auto px-4 relative z-10">
+            <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-emerald-400">
               {teasersSection.title}
             </h2>
             
@@ -276,15 +301,21 @@ const Index = () => {
 
       {/* Objectives Section */}
       {objectivesSection && (
-        <section id="objectives" className="py-20 bg-black">
-          <div className="max-w-6xl mx-auto px-4">
-            <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-yellow-400">
+        <section id="objectives" className="py-20 bg-black relative">
+          <div 
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
+            style={{ 
+              backgroundImage: `url(https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2048&q=80)`
+            }}
+          />
+          <div className="max-w-6xl mx-auto px-4 relative z-10">
+            <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-emerald-400">
               {objectivesSection.title}
             </h2>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {objectivesSection.content.objectives.map((objective: string, index: number) => (
-                <Card key={index} className="bg-gray-800 border-gray-700 p-6 hover:bg-gray-700 transition-colors duration-200">
+                <Card key={index} className="bg-gray-800/80 border-emerald-800 p-6 hover:bg-gray-700/80 transition-colors duration-200">
                   <p className="text-gray-300 text-center text-lg font-medium">
                     {objective}
                   </p>
@@ -297,24 +328,30 @@ const Index = () => {
 
       {/* Team Section */}
       {teamSection && (
-        <section id="team" className="py-20 bg-gray-900">
-          <div className="max-w-6xl mx-auto px-4">
-            <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-yellow-400">
+        <section id="team" className="py-20 bg-gray-900 relative">
+          <div 
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
+            style={{ 
+              backgroundImage: `url(https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80)`
+            }}
+          />
+          <div className="max-w-6xl mx-auto px-4 relative z-10">
+            <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-emerald-400">
               {teamSection.title}
             </h2>
             
             <div className="grid md:grid-cols-3 gap-8">
               {teamSection.content.members.map((member: any, index: number) => (
-                <Card key={index} className="bg-black border-gray-700 p-6 text-center">
+                <Card key={index} className="bg-black/80 border-emerald-800 p-6 text-center">
                   <img
                     src={member.image}
                     alt={member.name}
                     className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
                   />
-                  <h3 className="text-2xl font-bold text-yellow-400 mb-2">
+                  <h3 className="text-2xl font-bold text-emerald-400 mb-2">
                     {member.name}
                   </h3>
-                  <p className="text-green-400 font-medium mb-3">
+                  <p className="text-emerald-500 font-medium mb-3">
                     {member.role}
                   </p>
                   <p className="text-gray-300 leading-relaxed">
@@ -329,9 +366,15 @@ const Index = () => {
 
       {/* Support Section */}
       {supportSection && (
-        <section id="support" className="py-20 bg-black">
-          <div className="max-w-6xl mx-auto px-4">
-            <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-yellow-400">
+        <section id="support" className="py-20 bg-black relative">
+          <div 
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
+            style={{ 
+              backgroundImage: `url(https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2088&q=80)`
+            }}
+          />
+          <div className="max-w-6xl mx-auto px-4 relative z-10">
+            <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-emerald-400">
               {supportSection.title}
             </h2>
             
@@ -343,7 +386,7 @@ const Index = () => {
                 
                 <Button
                   asChild
-                  className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold text-lg px-8 py-4 rounded-lg transition-colors duration-200 w-full md:w-auto"
+                  className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-lg px-8 py-4 rounded-lg transition-colors duration-200 w-full md:w-auto"
                 >
                   <a href={supportSection.content.crowdfundingLink} target="_blank" rel="noopener noreferrer">
                     {supportSection.content.crowdfundingButtonText}
@@ -367,26 +410,32 @@ const Index = () => {
 
       {/* Contact Section */}
       {contactSection && (
-        <section id="contact" className="py-20 bg-gray-900">
-          <div className="max-w-4xl mx-auto px-4 text-center">
-            <h2 className="text-4xl md:text-5xl font-bold mb-12 text-yellow-400">
+        <section id="contact" className="py-20 bg-gray-900 relative">
+          <div 
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
+            style={{ 
+              backgroundImage: `url(https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80)`
+            }}
+          />
+          <div className="max-w-4xl mx-auto px-4 text-center relative z-10">
+            <h2 className="text-4xl md:text-5xl font-bold mb-12 text-emerald-400">
               {contactSection.title}
             </h2>
             
-            <Card className="bg-black border-gray-700 p-8">
+            <Card className="bg-black/80 border-emerald-800 p-8">
               <h3 className="text-2xl font-bold text-white mb-2">
                 {contactSection.content.name}
               </h3>
-              <p className="text-green-400 font-medium mb-4">
+              <p className="text-emerald-500 font-medium mb-4">
                 {contactSection.content.role}
               </p>
               <p className="text-gray-300 mb-4">
-                Email: <a href={`mailto:${contactSection.content.email}`} className="text-yellow-400 hover:underline">
+                Email: <a href={`mailto:${contactSection.content.email}`} className="text-emerald-400 hover:underline">
                   {contactSection.content.email}
                 </a>
               </p>
               <p className="text-gray-300">
-                Website: <a href={contactSection.content.website} target="_blank" rel="noopener noreferrer" className="text-yellow-400 hover:underline">
+                Website: <a href={contactSection.content.website} target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline">
                   {contactSection.content.website}
                 </a>
               </p>
