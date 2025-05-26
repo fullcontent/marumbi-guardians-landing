@@ -57,8 +57,8 @@
       "visible": true,
       "menuTitle": "Teasers",
       "content": {
-        "teaser1Url": "https://www.youtube.com/embed/bpD3pzsth-s",
-        "teaser2Url": "https://www.youtube.com/embed/f-EG4-zboeY",
+        "teaser1Url": "https://www.youtube.com/embed/f-EG4-zboeY",
+        "teaser2Url": "https://www.youtube.com/embed/bpD3pzsth-s",
         "galleryImages": [
           "https://aventufilm.com.br/wp-content/uploads/2025/02/DSC06280.jpg",
           "https://aventufilm.com.br/wp-content/uploads/2025/02/DSC06305.jpg",
@@ -108,7 +108,7 @@
             "name": "AventuFilm",
             "role": "Produtora",
             "description": "Produtora especializada em narrativas que exploram a relação entre homem e natureza, com foco em histórias autênticas e impactantes.",
-            "image": "https://aventufilm.com.br/wp-content/uploads/2025/02/LogoBranca@4x.png"
+            "image": "https://aventufilm.com.br/wp-content/uploads/2025/05/Logoselo.png"
           },
           {
             "name": "Inriê Maturano",

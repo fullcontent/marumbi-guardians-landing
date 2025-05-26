@@ -362,13 +362,14 @@ const Index = () => {
               {teasersSection.title}
             </h2>
             
-            <div className="grid md:grid-cols-2 gap-8 mb-16">
+            <div className="grid md:grid-cols-1 gap-8 mb-16">
               <div className="aspect-video">
                 <iframe
                   src={teasersSection.content.teaser1Url}
                   className="w-full h-full rounded-lg"
                   allowFullScreen
                 />
+                <h3>Teaser #1</h3>
               </div>
               <div className="aspect-video">
                 <iframe
@@ -376,6 +377,7 @@ const Index = () => {
                   className="w-full h-full rounded-lg"
                   allowFullScreen
                 />
+                <h3>Teaser #2</h3>
               </div>
             </div>
             
