@@ -228,7 +228,7 @@ const Index = () => {
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{ 
-              backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://imgdrop.io/image/mja73)`
+              backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://aventufilm.com.br/wp-content/uploads/2025/05/Teaser-2.00_01_02_21.Still001.jpg)`
             }}
           />
           <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
@@ -254,7 +254,7 @@ const Index = () => {
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
             style={{ 
-              backgroundImage: `url(https://imgdrop.io/image/DSC06267.mjgwt)`
+              backgroundImage: `url(https://aventufilm.com.br/wp-content/uploads/2025/05/DSC06270.jpg)`
             }}
           />
           <div className="max-w-6xl mx-auto px-4 relative z-10">
@@ -320,7 +320,7 @@ const Index = () => {
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
             style={{ 
-              backgroundImage: `url(https://imgdrop.io/image/Teaser-%232.00-00-11-06.Still003.mj4JU)`
+              backgroundImage: `url(https://ihttps://aventufilm.com.br/wp-content/uploads/2025/05/Teaser-2.00_00_11_06.Still003.jpgmgdrop.io/image/Teaser-%232.00-00-11-06.Still003.mj4JU)`
             }}
           />
           <div className="max-w-6xl mx-auto px-4 relative z-10">
@@ -352,7 +352,7 @@ const Index = () => {
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
             style={{ 
-              backgroundImage: `url(https://imgdrop.io/image/Teaser-%232.00-00-38-10.Still002.mjCHB)`
+              backgroundImage: `url(https://aventufilm.com.br/wp-content/uploads/2025/05/Teaser-2.00_00_38_10.Still002.jpg)`
             }}
           />
           <div className="max-w-6xl mx-auto px-4 relative z-10">
@@ -397,7 +397,7 @@ const Index = () => {
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
             style={{ 
-              backgroundImage: `url(https://imgdrop.io/image/DSC07433.mjfD5)`
+              backgroundImage: `url(https://aventufilm.com.br/wp-content/uploads/2025/05/DSC07433.jpg)`
             }}
           />
           <div className="max-w-6xl mx-auto px-4 relative z-10">
@@ -424,7 +424,7 @@ const Index = () => {
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
             style={{ 
-              backgroundImage: `url(https://imgdrop.io/image/DSC06391.mjqNa)`
+              backgroundImage: `url(https://aventufilm.com.br/wp-content/uploads/2025/05/DSC06317.jpg)`
             }}
           />
           <div className="max-w-6xl mx-auto px-4 relative z-10">
@@ -462,7 +462,7 @@ const Index = () => {
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
             style={{ 
-              backgroundImage: `url(https://imgdrop.io/image/DSC06293.mjuV7)`
+              backgroundImage: `url(https://aventufilm.com.br/wp-content/uploads/2025/05/DSC06293.jpg)`
             }}
           />
           <div className="max-w-6xl mx-auto px-4 relative z-10">
@@ -506,7 +506,7 @@ const Index = () => {
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10"
             style={{ 
-              backgroundImage: `url(https://imgdrop.io/image/DSC06305.mjiHQ)`
+              backgroundImage: `url(https://aventufilm.com.br/wp-content/uploads/2025/05/DSC06344.jpg)`
             }}
           />
           <div className="max-w-4xl mx-auto px-4 text-center relative z-10">
