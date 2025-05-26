@@ -339,6 +339,8 @@ const Index = () => {
                   src={justificationSection.content.image}
                   alt="Justificativa"
                   className="w-full rounded-lg shadow-lg"
+                  style={{ 
+              backgroundImage: `url(https://aventufilm.com.br/wp-content/uploads/2025/05/Teaser-2.00_00_38_10.Still002.jpg)`}}
                 />
               </div>
             </div>
